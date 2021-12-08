@@ -3,14 +3,11 @@ package com.zhaojie;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.io.Console;
-
 @SpringBootApplication
-public class RabbitmqProviderApplication {
+public class RabbitmqConsumerApplication {
 
     public static void main(String[] args) {
-        System.out.println("------rabbitMQ provider start successful");
-        SpringApplication.run(RabbitmqProviderApplication.class, args);
+        SpringApplication.run(RabbitmqConsumerApplication.class, args);
     }
 
 }
